@@ -1,0 +1,19 @@
+ID = cwc.heavy-miner
+Name = "Heavy Miner Mod"
+Version = 0.0.1
+CompatibleGameVersions = ["0.27.0"]
+ModifiesGameplay = true
+Author = "CatWhatCat"
+Description = "Adds a dorsal heavy miner, effectively 2x miner"
+
+Actions
+[
+	{
+		Action = Add
+		AddTo = "<ships/terran/terran.rules>/Terran/Parts"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+
+		ToAdd = &<heavy_miner.rules>/Part
+	}
+]

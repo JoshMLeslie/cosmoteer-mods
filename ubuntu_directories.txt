@@ -1,0 +1,15 @@
+Cosmoteer Unix Directory Locations
+
+Default URL:
+~/.local/share/Steam/steampapps ...
+
+Base Game:
+~/.local/share/Steam/steampapps/common/Cosmoteer/
+
+Workshop Mods:
+~/.local/share/Steam/steampapps/workshop/content/799600/
+
+User / Side-loaded Mods:
+cd ~/.local/share/Steam/steamapps/compatdata/799600/pfx/drive_c/users/steamuser/Saved\ Games/Cosmoteer/76561198000732102/Mods/
+
+
